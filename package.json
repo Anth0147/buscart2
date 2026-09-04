@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-notifier",
+  "version": "1.0.0",
+  "description": "Notificaciones WhatsApp via Baileys",
+  "main": "whatsapp_bridge.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node whatsapp_bridge.mjs",
+    "test": "node whatsapp_bridge.mjs --test"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.6.0"
+  }
+}

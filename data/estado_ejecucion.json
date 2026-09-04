@@ -1,0 +1,61 @@
+{
+  "activo": false,
+  "portal": "Visor Clientes Movistar",
+  "script": "main.py",
+  "timestamp": "2026-09-03T16:54:33.067956",
+  "task_idx": 5,
+  "total_tasks": 6,
+  "tareas_restantes": 1,
+  "stats": {
+    "total": 6,
+    "ok": 1,
+    "fail": 4,
+    "waf": 0,
+    "rotations": 0
+  },
+  "config": {
+    "num_threads": 1,
+    "usar_proxy": false,
+    "headless": true
+  },
+  "motivo": "Interrupción manual del usuario",
+  "ultimo_error": "",
+  "all_tasks": [
+    {
+      "u": "saguilarguzm",
+      "p": "Operador123**",
+      "t": "interno",
+      "ip": "Local-IP"
+    },
+    {
+      "u": "saguilarguzm",
+      "p": "Clave456!",
+      "t": "interno",
+      "ip": "Local-IP"
+    },
+    {
+      "u": "saguilarguzm",
+      "p": "Clave789!",
+      "t": "interno",
+      "ip": "Local-IP"
+    },
+    {
+      "u": "saguilarguzm",
+      "p": "Operador123**",
+      "t": "externo",
+      "ip": "Local-IP"
+    },
+    {
+      "u": "saguilarguzm",
+      "p": "Clave456!",
+      "t": "externo",
+      "ip": "Local-IP"
+    },
+    {
+      "u": "saguilarguzm",
+      "p": "Clave789!",
+      "t": "externo",
+      "ip": "Local-IP"
+    }
+  ]
+}

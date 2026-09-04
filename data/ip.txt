@@ -1,0 +1,14 @@
+# Archivo de configuracion de rotacion de IP
+# Formato: tipo:valor
+# Tipos disponibles:
+#   proxy:ip:puerto:usuario:contraseña  -> Proxy HTTP/HTTPS con credenciales
+#   proxy:ip:puerto                      -> Proxy HTTP/HTTPS sin credenciales
+#   vpn:nombre_configuracion              -> VPN (OpenVPN/WireGuard)
+#   tor                                   -> Usar red TOR
+#   scraperapi:api_key                   -> ScraperAPI
+#   brightdata:token                      -> Bright Data
+#   none                                  -> Sin rotacion de IP
+
+# Proxies configurados del usuario (ejemplo):
+# proxy:127.0.0.1:8080:usuario:contraseña
+# proxy:127.0.0.1:8080
