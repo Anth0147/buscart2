@@ -11,7 +11,6 @@
 - `requests >= 2.28.0`
 - `Pillow >= 9.0.0`
 - `urllib3 >= 1.26.0`
-- `supabase >= 2.0.0`
 
 ## ⚙️ Instalación
 
